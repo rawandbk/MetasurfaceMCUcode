@@ -1,0 +1,782 @@
+2026-01-07 02:31:49,029 [INFO] WebApp:191 - Connection restablished
+2026-01-07 02:41:31,427 [INFO] WebApp:194 - Connection lost
+2026-01-07 02:41:31,790 [INFO] WebApp:191 - Connection restablished
+2026-01-07 02:57:35,412 [INFO] WebApp:194 - Connection lost
+2026-01-07 02:57:35,997 [INFO] WebApp:191 - Connection restablished
+2026-01-07 03:12:37,462 [INFO] WebApp:194 - Connection lost
+2026-01-07 03:12:38,334 [INFO] WebApp:191 - Connection restablished
+2026-01-07 03:28:55,461 [INFO] WebApp:194 - Connection lost
+2026-01-07 03:28:55,989 [INFO] WebApp:191 - Connection restablished
+2026-01-07 03:42:31,289 [INFO] WebApp:194 - Connection lost
+2026-01-07 03:42:32,128 [INFO] WebApp:191 - Connection restablished
+2026-01-07 03:59:21,741 [INFO] WebApp:194 - Connection lost
+2026-01-07 03:59:22,062 [INFO] WebApp:191 - Connection restablished
+2026-01-07 03:59:27,480 [INFO] WebApp:194 - Connection lost
+2026-01-07 03:59:28,301 [INFO] WebApp:191 - Connection restablished
+2026-01-07 04:18:02,443 [INFO] WebApp:194 - Connection lost
+2026-01-07 04:18:02,829 [INFO] WebApp:191 - Connection restablished
+2026-01-07 04:18:08,377 [INFO] WebApp:194 - Connection lost
+2026-01-07 04:18:08,701 [INFO] WebApp:191 - Connection restablished
+2026-01-07 04:18:13,100 [INFO] WebApp:194 - Connection lost
+2026-01-07 04:18:13,639 [INFO] WebApp:191 - Connection restablished
+2026-01-07 04:34:37,519 [INFO] WebApp:194 - Connection lost
+2026-01-07 04:34:37,800 [INFO] WebApp:191 - Connection restablished
+2026-01-07 04:43:31,526 [INFO] WebApp:194 - Connection lost
+2026-01-07 04:43:32,328 [INFO] WebApp:191 - Connection restablished
+2026-01-07 05:01:45,397 [INFO] WebApp:194 - Connection lost
+2026-01-07 05:01:45,683 [INFO] WebApp:191 - Connection restablished
+2026-01-07 05:18:32,446 [INFO] WebApp:194 - Connection lost
+2026-01-07 05:18:32,637 [INFO] WebApp:191 - Connection restablished
+2026-01-07 05:34:24,379 [INFO] WebApp:194 - Connection lost
+2026-01-07 05:34:25,193 [INFO] WebApp:191 - Connection restablished
+2026-01-07 05:44:31,286 [INFO] WebApp:194 - Connection lost
+2026-01-07 05:44:31,884 [INFO] WebApp:191 - Connection restablished
+2026-01-07 06:01:18,327 [INFO] WebApp:194 - Connection lost
+2026-01-07 06:01:18,631 [INFO] WebApp:191 - Connection restablished
+2026-01-07 06:18:39,405 [INFO] WebApp:194 - Connection lost
+2026-01-07 06:18:39,604 [INFO] WebApp:191 - Connection restablished
+2026-01-07 06:35:23,537 [INFO] WebApp:194 - Connection lost
+2026-01-07 06:35:24,048 [INFO] WebApp:191 - Connection restablished
+2026-01-07 06:45:31,500 [INFO] WebApp:194 - Connection lost
+2026-01-07 06:45:31,809 [INFO] WebApp:191 - Connection restablished
+2026-01-07 07:01:34,405 [INFO] WebApp:194 - Connection lost
+2026-01-07 07:01:34,679 [INFO] WebApp:191 - Connection restablished
+2026-01-07 07:17:20,425 [INFO] WebApp:194 - Connection lost
+2026-01-07 07:17:21,324 [INFO] WebApp:191 - Connection restablished
+2026-01-07 07:33:30,401 [INFO] WebApp:194 - Connection lost
+2026-01-07 07:33:30,807 [INFO] WebApp:191 - Connection restablished
+2026-01-07 07:46:31,425 [INFO] WebApp:194 - Connection lost
+2026-01-07 07:46:31,687 [INFO] WebApp:191 - Connection restablished
+2026-01-07 08:04:34,597 [INFO] WebApp:194 - Connection lost
+2026-01-07 08:04:34,886 [INFO] WebApp:191 - Connection restablished
+2026-01-07 08:21:25,516 [INFO] WebApp:194 - Connection lost
+2026-01-07 08:21:25,688 [INFO] WebApp:191 - Connection restablished
+2026-01-07 08:32:51,508 [INFO] WebApp:194 - Connection lost
+2026-01-07 08:32:51,777 [INFO] WebApp:191 - Connection restablished
+2026-01-07 08:47:31,419 [INFO] WebApp:194 - Connection lost
+2026-01-07 08:47:31,779 [INFO] WebApp:191 - Connection restablished
+2026-01-07 09:05:36,524 [INFO] WebApp:194 - Connection lost
+2026-01-07 09:05:36,864 [INFO] WebApp:191 - Connection restablished
+2026-01-07 09:21:11,378 [INFO] WebApp:194 - Connection lost
+2026-01-07 09:21:12,283 [INFO] WebApp:191 - Connection restablished
+2026-01-07 09:24:05,070 [INFO] WebApp:194 - Connection lost
+2026-01-07 09:24:05,938 [INFO] WebApp:191 - Connection restablished
+2026-01-07 09:28:02,862 [INFO] WebApp:194 - Connection lost
+2026-01-07 09:28:03,507 [INFO] WebApp:191 - Connection restablished
+2026-01-07 09:28:45,352 [INFO] WebApp:194 - Connection lost
+2026-01-07 09:28:45,816 [INFO] WebApp:191 - Connection restablished
+2026-01-07 09:30:10,965 [INFO] WebApp:194 - Connection lost
+2026-01-07 09:30:11,231 [INFO] WebApp:191 - Connection restablished
+2026-01-07 09:47:29,537 [INFO] WebApp:194 - Connection lost
+2026-01-07 09:47:30,205 [INFO] WebApp:191 - Connection restablished
+2026-01-07 09:47:37,316 [INFO] WebApp:194 - Connection lost
+2026-01-07 09:47:37,547 [INFO] WebApp:191 - Connection restablished
+2026-01-07 10:05:22,486 [INFO] WebApp:194 - Connection lost
+2026-01-07 10:05:22,748 [INFO] WebApp:191 - Connection restablished
+2026-01-07 10:21:28,346 [INFO] WebApp:194 - Connection lost
+2026-01-07 10:21:29,147 [INFO] WebApp:191 - Connection restablished
+2026-01-07 10:38:14,651 [INFO] WebApp:194 - Connection lost
+2026-01-07 10:38:14,932 [INFO] WebApp:191 - Connection restablished
+2026-01-07 10:48:31,437 [INFO] WebApp:194 - Connection lost
+2026-01-07 10:48:31,810 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:05:52,503 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:05:53,138 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:22:17,550 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:22:18,277 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:22:25,350 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:22:25,868 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:23:15,201 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:23:15,831 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:25:11,019 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:25:11,364 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:31:37,485 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:31:38,142 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:33:47,545 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:33:47,906 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:34:10,641 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:34:10,928 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:34:40,935 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:34:41,457 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:34:45,086 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:34:47,262 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:35:37,146 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:35:37,846 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:35:37,926 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:35:38,404 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:36:24,411 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:36:25,028 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:37:14,899 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:37:15,555 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:37:34,915 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:37:35,247 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:38:07,396 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:38:08,045 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:38:37,282 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:38:37,767 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:38:37,905 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:38:38,129 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:39:12,709 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:39:13,388 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:39:13,846 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:39:15,433 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:39:30,022 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:39:30,373 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:40:21,324 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:40:21,986 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:49:31,428 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:49:32,146 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:51:50,108 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:51:50,412 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:52:23,046 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:52:23,781 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:52:52,820 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:52:53,168 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:53:40,327 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:53:41,000 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:54:06,328 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:54:06,641 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:54:28,871 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:54:29,546 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:55:15,247 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:55:15,937 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:55:53,851 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:55:54,519 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:56:22,528 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:56:22,834 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:56:55,193 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:56:55,857 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:57:33,997 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:57:34,687 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:58:27,861 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:58:28,185 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:58:43,737 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:58:44,419 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:59:04,317 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:59:04,587 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:59:23,166 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:59:23,792 [INFO] WebApp:191 - Connection restablished
+2026-01-07 11:59:50,103 [INFO] WebApp:194 - Connection lost
+2026-01-07 11:59:50,477 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:01:08,229 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:01:08,703 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:01:52,380 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:01:53,063 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:02:30,150 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:02:30,845 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:02:54,926 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:02:55,226 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:03:12,655 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:03:13,230 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:03:23,706 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:03:24,174 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:03:39,193 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:03:39,462 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:03:54,529 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:03:54,805 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:04:29,657 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:04:30,053 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:04:46,342 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:04:46,850 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:04:55,046 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:04:55,277 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:05:10,737 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:05:11,017 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:05:28,849 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:05:29,071 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:05:48,090 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:05:48,373 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:06:10,318 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:06:10,679 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:06:32,854 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:06:33,152 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:06:47,300 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:06:47,664 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:09:31,029 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:09:31,726 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:15:55,076 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:15:55,486 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:26:58,508 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:26:59,241 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:42:10,425 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:42:10,744 [INFO] WebApp:191 - Connection restablished
+2026-01-07 12:50:31,600 [INFO] WebApp:194 - Connection lost
+2026-01-07 12:50:32,307 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:01:27,972 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:06:47,501 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:07:52,719 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:17:44,401 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:18:35,179 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:19:09,724 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:29:09,934 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:29:15,637 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:40:22,721 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:40:28,058 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:42:01,720 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:42:31,379 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:42:54,710 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:43:17,959 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:43:35,581 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:44:58,055 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:45:14,724 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:45:25,376 [INFO] WebApp:191 - Connection restablished
+2026-01-07 13:48:42,403 [INFO] WebApp:194 - Connection lost
+2026-01-07 13:48:49,784 [INFO] WebApp:191 - Connection restablished
+2026-01-07 14:01:19,955 [INFO] WebApp:194 - Connection lost
+2026-01-07 14:01:50,080 [INFO] WebApp:191 - Connection restablished
+2026-01-07 14:02:24,362 [INFO] WebApp:194 - Connection lost
+2026-01-07 14:02:30,347 [INFO] WebApp:191 - Connection restablished
+2026-01-07 14:03:18,485 [INFO] WebApp:194 - Connection lost
+2026-01-07 14:03:23,780 [INFO] WebApp:191 - Connection restablished
+2026-01-07 14:04:38,274 [INFO] WebApp:194 - Connection lost
+2026-01-07 14:04:43,377 [INFO] WebApp:191 - Connection restablished
+2026-01-07 15:20:46,220 [INFO] MainUpdater:2872 - connection check result : 10
+2026-01-07 15:20:46,222 [INFO] MainUpdater:2872 - connection check result : 10
+2026-01-07 15:20:46,607 [INFO] MicroXplorer:468 - Change Database Path : 
+2026-01-07 15:20:46,608 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.150
+2026-01-07 15:20:46,703 [ERROR] ProjectManagerView:395 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$9.caretUpdate(ProjectChoiceTab.java:2706) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:408) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4484) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4506) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:857) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1343) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1242) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1223) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1819) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:227) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:781) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:740) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:699) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1725) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:993) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3813) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1987) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:558) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:247) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:392) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:899) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:792) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:288) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:364) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:342) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:264) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1198) ~[com.st.stm32cube.common.mx_6.15.0.202507011659/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.15.0.202507011659/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.15.0.202507011659/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.15.0.202507011659/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.15.0.202507011659/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2026-01-07 15:20:46,709 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2026-01-07 15:20:46,709 [INFO] ThirdParty:873 - entering critical section [close project]
+2026-01-07 15:20:46,709 [INFO] ThirdParty:883 - exiting critical section [close project]
+2026-01-07 15:20:46,715 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2026-01-07 15:20:46,773 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2026-01-07 15:20:46,836 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2026-01-07 15:20:46,853 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 810801536 Bytes (1073741824)
+2026-01-07 15:20:46,856 [INFO] MicroXplorer:468 - Change Database Path : 
+2026-01-07 15:20:46,857 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.150
+2026-01-07 15:20:46,857 [INFO] OpenFileManager:355 - Change cursor
+2026-01-07 15:20:46,965 [INFO] RulesReader:64 - Compatibility file has been processed (317 Rules)
+2026-01-07 15:20:46,997 [INFO] Mcu:2029 - Initializing MCU STM32F446Z(C-E)Tx STM32F446ZETx STM32F446ZET6
+2026-01-07 15:20:49,657 [INFO] Context:786 - Trying to add GPIOservice into a context  which must be forbidden
+2026-01-07 15:20:50,357 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) Pin28 (VP_RIF_VS_RIF1) cannot be retrieved for this MCU
+2026-01-07 15:20:50,649 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2026-01-07 15:20:50,650 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2026-01-07 15:20:50,650 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2026-01-07 15:20:50,650 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2026-01-07 15:20:50,650 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,670 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-01-07 15:20:50,671 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2026-01-07 15:20:50,830 [INFO] ThirdPartyModel:298 - Start build external matchings
+2026-01-07 15:20:51,374 [INFO] ThirdPartyModel:316 - End build external matchings
+2026-01-07 15:20:51,402 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (48MHZClocksFreq_Value)
+2026-01-07 15:20:51,402 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (ADC12outputFreq_Value)
+2026-01-07 15:20:51,402 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (ADC34outputFreq_Value)
+2026-01-07 15:20:51,404 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (EthernetFreq_Value)
+2026-01-07 15:20:51,404 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2026-01-07 15:20:51,405 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2C1Freq_Value)
+2026-01-07 15:20:51,405 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2C2Freq_Value)
+2026-01-07 15:20:51,405 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2C3Freq_Value)
+2026-01-07 15:20:51,405 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2SClocksFreq_Value)
+2026-01-07 15:20:51,405 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (LCDTFTFreq_Value)
+2026-01-07 15:20:51,405 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Parameter (MCO2PinFreq_Value) has invalid value (168000000)
+2026-01-07 15:20:51,405 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (MCOFreq_Value)
+2026-01-07 15:20:51,410 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLMCOFreq_Value)
+2026-01-07 15:20:51,411 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLMUL)
+2026-01-07 15:20:51,411 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PRESCALERUSB)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (SAI_AClocksFreq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (SAI_BClocksFreq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (SYSCLKSourceVirtual)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM15Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM16Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM17Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM1Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM20Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM2Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM3Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM8Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (UART4Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (UART5Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (USART1Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (USART2Freq_Value)
+2026-01-07 15:20:51,415 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (USART3Freq_Value)
+2026-01-07 15:20:51,416 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOOutput2Freq_Value)
+2026-01-07 15:20:51,416 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOSAIOutputFreq_ValueQ)
+2026-01-07 15:20:51,416 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOSAIOutputFreq_ValueR)
+2026-01-07 15:20:51,416 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VcooutputI2S)
+2026-01-07 15:20:51,416 [INFO] ImportTextPane:234 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VcooutputI2SQ)
+2026-01-07 15:20:51,666 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 830927392 Bytes (1073741824)
+2026-01-07 15:20:51,841 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2026-01-07 15:20:51,849 [INFO] ThirdParty:835 - entering critical section [change project]
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-PM33A1 1.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.2
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.8.2
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.2
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.4.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.2.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.2.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.1
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC12 1.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST67W61 1.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.19.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 2.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 12.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.1.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.4.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.7.1
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 2.0.0
+2026-01-07 15:20:51,849 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.8.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.4.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.20
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 2.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.2.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.1
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST60 1.1.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.1.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.26.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-STSE01 1.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.1.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.2.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STAIOTCFT 1.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.1.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.3.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.3.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.2.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Avnet-IOTCONNECT X-CUBE-iotc-st67-sdk 1.0.0
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.3
+2026-01-07 15:20:51,850 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2026-01-07 15:20:51,851 [INFO] ThirdParty:841 - exiting critical section [change project]
+2026-01-07 15:20:52,618 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2026-01-07 15:20:52,625 [INFO] PinOutPanel:1589 - setPackage(STM32F446ZETx,LQFP144)
+2026-01-07 15:20:53,994 [INFO] UtilMem:75 - Before build in PCC Used Memory: 878558328 Bytes (1073741824)
+2026-01-07 15:20:54,525 [INFO] UtilMem:75 - After build in PCC Used Memory: 928889976 Bytes (1073741824)
+2026-01-07 15:20:54,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,579 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,585 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,585 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,585 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,585 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,585 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,586 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,586 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,586 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,586 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,586 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,586 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,586 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,586 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,586 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,587 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,588 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,588 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,588 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,588 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,588 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,588 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-01-07 15:20:54,602 [INFO] ApiDbMcu:532 - Load IP Config File for PDM2PCM
+2026-01-07 15:20:54,732 [INFO] CADModel:165 - CPN selected for project levelSTM32F446ZET6
+2026-01-07 15:20:54,732 [INFO] CADModel:114 - Register for checkConnection events
+2026-01-07 15:20:54,783 [INFO] OpenFileManager:386 - Restore cursor
+2026-01-07 15:29:29,681 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 821607408 Bytes (1073741824)
+2026-01-07 15:29:32,689 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 742843904 Bytes (1073741824)
+2026-01-07 15:29:37,004 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 890054720 Bytes (1073741824)
+2026-01-07 15:29:38,360 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2026-01-07 15:29:38,370 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-01-07 15:29:38,373 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-01-07 15:29:38,374 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-01-07 15:29:38,377 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-01-07 15:29:38,379 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-01-07 15:29:38,627 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/license.tmp_save
+2026-01-07 15:29:38,973 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/license.tmp
+2026-01-07 15:29:39,109 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/gpio.tmp_save
+2026-01-07 15:29:39,309 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/gpio.tmp
+2026-01-07 15:29:39,498 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/stm32f4xx_it.c_save
+2026-01-07 15:29:39,800 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/stm32f4xx_it.c
+2026-01-07 15:29:39,803 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/stm32f4xx_it.h_save
+2026-01-07 15:29:39,884 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/stm32f4xx_it.h
+2026-01-07 15:29:39,891 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/stm32f4xx_hal_msp.c_save
+2026-01-07 15:29:40,034 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/stm32f4xx_hal_msp.c
+2026-01-07 15:29:40,037 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/system.tmp_save
+2026-01-07 15:29:40,109 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/system.tmp
+2026-01-07 15:29:40,117 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/stm32f4xx_hal_conf.h_save
+2026-01-07 15:29:40,197 [INFO] CodeEngine:345 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/stm32f4xx_hal_conf.h
+2026-01-07 15:29:40,247 [WARN] IPConfigManager:3238 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2026-01-07 15:29:40,257 [INFO] ApiDbMcu:532 - Load IP Config File for SPI1
+2026-01-07 15:29:40,263 [INFO] ApiDbMcu:532 - Load IP Config File for RCC
+2026-01-07 15:29:40,271 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/main.h_save
+2026-01-07 15:29:40,401 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/main.h
+2026-01-07 15:29:40,405 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/main.c_save
+2026-01-07 15:29:40,538 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/main.c
+2026-01-07 15:29:40,725 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 66mS.
+2026-01-07 15:29:40,729 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-01-07 15:29:40,804 [INFO] ConfigFileManager:1595 - The Die is : DIE421
+2026-01-07 15:29:40,817 [INFO] ApiDbMcu:532 - Load IP Config File for FATFS
+2026-01-07 15:29:40,827 [INFO] ApiDbMcu:532 - Load IP Config File for FREERTOS
+2026-01-07 15:29:40,830 [INFO] ApiDbMcu:532 - Load IP Config File for LIBJPEG
+2026-01-07 15:29:40,841 [INFO] ApiDbMcu:532 - Load IP Config File for MBEDTLS
+2026-01-07 15:29:40,862 [INFO] ApiDbMcu:532 - Load IP Config File for USB_DEVICE
+2026-01-07 15:29:40,867 [INFO] ApiDbMcu:532 - Load IP Config File for USB_HOST
+2026-01-07 15:29:44,298 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 3561mS.
+2026-01-07 15:29:44,310 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 2mS.
+2026-01-07 15:29:44,315 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-01-07 15:54:42,663 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 707626000 Bytes (1073741824)
+2026-01-07 15:54:44,383 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 914762824 Bytes (1073741824)
+2026-01-07 15:54:49,386 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 754016256 Bytes (1073741824)
+2026-01-07 15:54:50,058 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2026-01-07 15:54:50,058 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-01-07 15:54:50,058 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-01-07 15:54:50,059 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-01-07 15:54:50,061 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-01-07 15:54:50,061 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-01-07 15:54:50,297 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/license.tmp_save
+2026-01-07 15:54:50,632 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/license.tmp
+2026-01-07 15:54:50,743 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/gpio.tmp_save
+2026-01-07 15:54:50,944 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/gpio.tmp
+2026-01-07 15:54:51,123 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/stm32f4xx_it.c_save
+2026-01-07 15:54:51,434 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/stm32f4xx_it.c
+2026-01-07 15:54:51,440 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/stm32f4xx_it.h_save
+2026-01-07 15:54:51,526 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/stm32f4xx_it.h
+2026-01-07 15:54:51,543 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/stm32f4xx_hal_msp.c_save
+2026-01-07 15:54:51,784 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/stm32f4xx_hal_msp.c
+2026-01-07 15:54:51,791 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/system.tmp_save
+2026-01-07 15:54:51,879 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/MXTmpFiles/system.tmp
+2026-01-07 15:54:51,885 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/stm32f4xx_hal_conf.h_save
+2026-01-07 15:54:51,970 [INFO] CodeEngine:345 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/stm32f4xx_hal_conf.h
+2026-01-07 15:54:52,059 [WARN] IPConfigManager:3238 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2026-01-07 15:54:52,075 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/main.h_save
+2026-01-07 15:54:52,210 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Inc/main.h
+2026-01-07 15:54:52,214 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/main.c_save
+2026-01-07 15:54:52,351 [INFO] CodeEngine:289 - Generated code: /Users/rawandbk/STM32CubeIDE/workspace_1.19.0/STMCommandsFromPI/Core/Src/main.c
+2026-01-07 15:54:52,539 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 56mS.
+2026-01-07 15:54:52,542 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-01-07 15:54:52,831 [INFO] ConfigFileManager:1595 - The Die is : DIE421
+2026-01-07 15:54:55,720 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 3175mS.
+2026-01-07 15:54:55,723 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2026-01-07 15:54:55,725 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-01-07 16:13:28,236 [INFO] WebApp:194 - Connection lost
+2026-01-07 16:13:36,087 [INFO] WebApp:191 - Connection restablished
+2026-01-07 16:15:01,644 [INFO] WebApp:194 - Connection lost
+2026-01-07 16:15:09,862 [INFO] WebApp:191 - Connection restablished
+2026-01-07 18:01:19,717 [INFO] WebApp:194 - Connection lost
+2026-01-07 18:01:22,609 [INFO] WebApp:191 - Connection restablished
+2026-01-07 18:04:37,224 [INFO] WebApp:194 - Connection lost
+2026-01-07 18:04:42,134 [INFO] WebApp:191 - Connection restablished
+2026-01-07 18:05:56,896 [INFO] WebApp:194 - Connection lost
+2026-01-07 18:06:02,630 [INFO] WebApp:191 - Connection restablished
+2026-01-07 18:07:11,232 [INFO] WebApp:194 - Connection lost
+2026-01-07 18:07:13,700 [INFO] WebApp:191 - Connection restablished
+2026-01-07 18:33:47,730 [INFO] WebApp:194 - Connection lost
+2026-01-07 18:33:53,396 [INFO] WebApp:191 - Connection restablished
+2026-01-07 18:50:54,559 [INFO] WebApp:194 - Connection lost
+2026-01-07 18:50:59,719 [INFO] WebApp:191 - Connection restablished
+2026-01-07 18:53:27,693 [INFO] WebApp:194 - Connection lost
+2026-01-07 18:53:32,691 [INFO] WebApp:191 - Connection restablished
+2026-01-07 18:54:10,848 [INFO] WebApp:194 - Connection lost
+2026-01-07 18:54:15,975 [INFO] WebApp:191 - Connection restablished
+2026-01-07 18:54:35,686 [INFO] WebApp:194 - Connection lost
+2026-01-07 18:54:40,911 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:04:01,136 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:04:06,308 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:06:37,118 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:06:43,708 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:07:33,400 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:07:38,755 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:08:30,540 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:08:36,040 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:09:22,635 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:09:35,736 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:10:20,930 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:10:40,142 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:11:09,336 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:22:52,977 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:22:54,271 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:22:54,539 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:25:09,601 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:25:09,861 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:25:20,125 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:25:20,454 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:25:21,271 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:25:21,983 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:40:36,263 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:40:36,574 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:40:45,492 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:40:45,816 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:40:55,931 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:40:56,252 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:57:28,517 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:57:28,839 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:57:56,288 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:57:56,634 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:58:05,515 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:58:05,829 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:58:19,447 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:58:19,765 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:59:11,870 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:59:12,214 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:59:34,094 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:59:34,492 [INFO] WebApp:191 - Connection restablished
+2026-01-07 19:59:54,870 [INFO] WebApp:194 - Connection lost
+2026-01-07 19:59:55,352 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:00:06,367 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:00:07,004 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:03:49,022 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:03:49,510 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:03:51,935 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:03:54,015 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:04:06,378 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:04:06,859 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:11:38,701 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:11:39,311 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:11:40,026 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:11:41,095 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:26:09,757 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:26:10,279 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:26:13,313 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:26:14,865 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:26:49,244 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:26:49,680 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:28:18,941 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:28:19,394 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:28:30,204 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:28:30,533 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:28:41,773 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:28:42,267 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:29:15,375 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:29:15,715 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:29:25,295 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:29:25,781 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:29:49,561 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:29:50,116 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:29:52,327 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:29:52,513 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:30:05,640 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:30:05,963 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:30:15,817 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:30:16,202 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:30:30,637 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:30:30,861 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:31:03,916 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:31:04,183 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:31:27,252 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:31:27,516 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:31:54,906 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:31:55,165 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:34:03,833 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:34:04,177 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:34:13,604 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:34:13,880 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:35:00,054 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:35:01,213 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:36:05,972 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:36:06,481 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:36:10,197 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:36:11,199 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:37:49,524 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:37:49,863 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:43:30,321 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:43:30,668 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:47:12,115 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:47:12,484 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:47:25,340 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:47:25,577 [INFO] WebApp:191 - Connection restablished
+2026-01-07 20:47:36,787 [INFO] WebApp:194 - Connection lost
+2026-01-07 20:47:37,332 [INFO] WebApp:191 - Connection restablished
+2026-01-07 21:05:02,682 [INFO] WebApp:194 - Connection lost
+2026-01-07 21:05:02,926 [INFO] WebApp:191 - Connection restablished
+2026-01-07 21:05:04,875 [INFO] WebApp:194 - Connection lost
+2026-01-07 21:05:05,242 [INFO] WebApp:191 - Connection restablished
+2026-01-07 21:20:08,241 [INFO] WebApp:194 - Connection lost
+2026-01-07 21:20:10,459 [INFO] WebApp:191 - Connection restablished
+2026-01-07 21:20:13,099 [INFO] WebApp:194 - Connection lost
+2026-01-07 21:20:15,303 [INFO] WebApp:191 - Connection restablished
+2026-01-07 21:27:09,885 [INFO] WebApp:194 - Connection lost
+2026-01-07 21:27:10,173 [INFO] WebApp:191 - Connection restablished
+2026-01-07 21:27:22,632 [INFO] WebApp:194 - Connection lost
+2026-01-07 21:27:23,541 [INFO] WebApp:191 - Connection restablished
+2026-01-07 21:44:13,103 [INFO] WebApp:194 - Connection lost
+2026-01-07 21:44:15,909 [INFO] WebApp:191 - Connection restablished
+2026-01-07 21:59:19,951 [INFO] WebApp:194 - Connection lost
+2026-01-07 21:59:24,359 [INFO] WebApp:191 - Connection restablished
+2026-01-07 22:14:45,861 [INFO] WebApp:194 - Connection lost
+2026-01-07 22:14:48,140 [INFO] WebApp:191 - Connection restablished
+2026-01-07 22:25:02,670 [INFO] WebApp:194 - Connection lost
+2026-01-07 22:25:06,160 [INFO] WebApp:191 - Connection restablished
+2026-01-07 22:25:11,913 [INFO] WebApp:194 - Connection lost
+2026-01-07 22:25:13,300 [INFO] WebApp:191 - Connection restablished
+2026-01-07 22:28:09,670 [INFO] WebApp:194 - Connection lost
+2026-01-07 22:28:10,658 [INFO] WebApp:191 - Connection restablished
+2026-01-07 22:28:12,088 [INFO] WebApp:194 - Connection lost
+2026-01-07 22:28:12,824 [INFO] WebApp:191 - Connection restablished
+2026-01-07 22:44:58,981 [INFO] WebApp:194 - Connection lost
+2026-01-07 23:00:48,550 [INFO] WebApp:191 - Connection restablished
+2026-01-07 23:15:50,887 [INFO] WebApp:194 - Connection lost
+2026-01-07 23:15:51,375 [INFO] WebApp:191 - Connection restablished
+2026-01-07 23:15:55,459 [INFO] WebApp:194 - Connection lost
+2026-01-07 23:15:57,189 [INFO] WebApp:191 - Connection restablished
+2026-01-07 23:29:09,979 [INFO] WebApp:194 - Connection lost
+2026-01-07 23:29:19,691 [INFO] WebApp:191 - Connection restablished
+2026-01-07 23:45:36,465 [INFO] WebApp:194 - Connection lost
+2026-01-07 23:45:38,009 [INFO] WebApp:191 - Connection restablished

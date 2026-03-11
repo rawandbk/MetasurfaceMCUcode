@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="uart"/>
+		<item value="RX_PACKET_"/>
+		<item value="RX_PACKET_WORDS"/>
+		<item value="RX_PACKET_WORDS "/>
+		<item value="#define RX_PACKET_WORDS \"/>
+		<item value="callb"/>
+		<item value="rear"/>
+		<item value="callback"/>
+		<item value="call"/>
+		<item value="init"/>
+		<item value="usart"/>
+		<item value="reArm"/>
+		<item value="static void ApplyPattern48(uint16_t f0, uint16_t f1, uint16_t f2);"/>
+		<item value="sync"/>
+		<item value="rearm"/>
+	</list>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value=""/>
+		<list key="findhistory">
+			<item value="RX_PACKET_WORDS"/>
+			<item value="RX_"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="567"/>
+		<item key="DIALOG_Y_ORIGIN" value="193"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="400"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

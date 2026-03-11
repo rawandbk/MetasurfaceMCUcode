@@ -1,0 +1,10 @@
+12:47:24 **** Incremental Build of configuration Debug for project STMCommandsFromPI ****
+make -j7 all 
+arm-none-eabi-size  STMCommandsFromPI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12332	     12	   1692	  14036	   36d4	STMCommandsFromPI.elf
+Finished building: default.size.stdout
+ 
+
+12:47:24 Build Finished. 0 errors, 0 warnings. (took 179ms)
+
