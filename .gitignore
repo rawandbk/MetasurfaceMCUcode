@@ -1,0 +1,8 @@
+.metadata/.plugins/org.eclipse.cdt.core/TwoModesTest.1772907123259.pdom
+Build/
+*.o
+*.bin
+*.elf
+*.pyc
+.DS_Store
+

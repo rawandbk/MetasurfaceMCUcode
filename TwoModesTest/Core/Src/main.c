@@ -33,7 +33,6 @@ typedef enum {
 } run_mode_t;
 
 
-
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
