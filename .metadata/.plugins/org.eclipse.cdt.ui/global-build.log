@@ -136,3 +136,327 @@ arm-none-eabi-size  TwoModesTest.elf
   24836	    108	   2372	  27316	   6ab4	TwoModesTest.elf
 Finished building: default.size.stdout
  
+16:02:16 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  24836	    108	   2372	  27316	   6ab4	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+16:04:48 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  24836	    108	   2372	  27316	   6ab4	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+16:15:15 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:109:13: warning: 'Monitoring' defined but not used [-Wunused-function]
+  109 | static void Monitoring(void){
+      |             ^~~~~~~~~~
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  24836	    108	   2372	  27316	   6ab4	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+16:18:14 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  24836	    108	   2372	  27316	   6ab4	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+17:01:47 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:370:21: warning: unused variable 'st' [-Wunused-variable]
+  370 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:593:1: warning: "/*" within comment [-Wcomment]
+  593 | /*
+      |  
+../Core/Src/main.c:594:3: warning: "/*" within comment [-Wcomment]
+  594 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  27204	    108	   2372	  29684	   73f4	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+17:06:32 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:381:21: warning: unused variable 'st' [-Wunused-variable]
+  381 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:604:1: warning: "/*" within comment [-Wcomment]
+  604 | /*
+      |  
+../Core/Src/main.c:605:3: warning: "/*" within comment [-Wcomment]
+  605 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  27232	    108	   2380	  29720	   7418	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+17:06:58 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:381:21: warning: unused variable 'st' [-Wunused-variable]
+  381 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:604:1: warning: "/*" within comment [-Wcomment]
+  604 | /*
+      |  
+../Core/Src/main.c:605:3: warning: "/*" within comment [-Wcomment]
+  605 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  27232	    108	   2380	  29720	   7418	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+17:07:20 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:381:21: warning: unused variable 'st' [-Wunused-variable]
+  381 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:604:1: warning: "/*" within comment [-Wcomment]
+  604 | /*
+      |  
+../Core/Src/main.c:605:3: warning: "/*" within comment [-Wcomment]
+  605 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  27236	    108	   2380	  29724	   741c	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+17:07:43 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:381:21: warning: unused variable 'st' [-Wunused-variable]
+  381 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:604:1: warning: "/*" within comment [-Wcomment]
+  604 | /*
+      |  
+../Core/Src/main.c:605:3: warning: "/*" within comment [-Wcomment]
+  605 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  27236	    108	   2380	  29724	   741c	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+17:09:28 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:379:21: warning: unused variable 'st' [-Wunused-variable]
+  379 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:602:1: warning: "/*" within comment [-Wcomment]
+  602 | /*
+      |  
+../Core/Src/main.c:603:3: warning: "/*" within comment [-Wcomment]
+  603 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  27236	    108	   2380	  29724	   741c	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+17:31:00 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:388:21: warning: unused variable 'st' [-Wunused-variable]
+  388 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:611:1: warning: "/*" within comment [-Wcomment]
+  611 | /*
+      |  
+../Core/Src/main.c:612:3: warning: "/*" within comment [-Wcomment]
+  612 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  27352	    108	   2380	  29840	   7490	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+17:34:47 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-size  TwoModesTest.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27352	    108	   2380	  29840	   7490	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+17:45:56 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:391:21: warning: unused variable 'st' [-Wunused-variable]
+  391 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:614:1: warning: "/*" within comment [-Wcomment]
+  614 | /*
+      |  
+../Core/Src/main.c:615:3: warning: "/*" within comment [-Wcomment]
+  615 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  27508	    108	   2380	  29996	   752c	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+17:57:29 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:392:21: warning: unused variable 'st' [-Wunused-variable]
+  392 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:615:1: warning: "/*" within comment [-Wcomment]
+  615 | /*
+      |  
+../Core/Src/main.c:616:3: warning: "/*" within comment [-Wcomment]
+  616 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:111:13: warning: 'ADC_Monitoring' defined but not used [-Wunused-function]
+  111 | static void ADC_Monitoring(void){
+      |             ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  26028	    124	   2356	  28508	   6f5c	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 
+18:00:38 **** Incremental Build of configuration Debug for project TwoModesTest ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:392:21: warning: unused variable 'st' [-Wunused-variable]
+  392 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:615:1: warning: "/*" within comment [-Wcomment]
+  615 | /*
+      |  
+../Core/Src/main.c:616:3: warning: "/*" within comment [-Wcomment]
+  616 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:111:13: warning: 'ADC_Monitoring' defined but not used [-Wunused-function]
+  111 | static void ADC_Monitoring(void){
+      |             ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
+arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
+   text	   data	    bss	    dec	    hex	filename
+  26028	    124	   2356	  28508	   6f5c	TwoModesTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: TwoModesTest.list
+ 

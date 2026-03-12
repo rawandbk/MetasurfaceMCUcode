@@ -1,10 +1,32 @@
-15:57:34 **** Incremental Build of configuration Debug for project TwoModesTest ****
+18:00:38 **** Incremental Build of configuration Debug for project TwoModesTest ****
 make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:392:21: warning: unused variable 'st' [-Wunused-variable]
+  392 |   HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+      |                     ^~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:615:1: warning: "/*" within comment [-Wcomment]
+  615 | /*
+      |  
+../Core/Src/main.c:616:3: warning: "/*" within comment [-Wcomment]
+  616 |   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+      |    
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:111:13: warning: 'ADC_Monitoring' defined but not used [-Wunused-function]
+  111 | static void ADC_Monitoring(void){
+      |             ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "TwoModesTest.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/rawandbk/STM32CubeIDE/workspace_1.19.0/TwoModesTest/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TwoModesTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TwoModesTest.elf
+ 
 arm-none-eabi-size  TwoModesTest.elf 
+arm-none-eabi-objdump -h -S TwoModesTest.elf  > "TwoModesTest.list"
    text	   data	    bss	    dec	    hex	filename
-  24836	    108	   2372	  27316	   6ab4	TwoModesTest.elf
+  26028	    124	   2356	  28508	   6f5c	TwoModesTest.elf
 Finished building: default.size.stdout
  
+Finished building: TwoModesTest.list
+ 
 
-15:57:34 Build Finished. 0 errors, 0 warnings. (took 364ms)
+18:00:39 Build Finished. 0 errors, 4 warnings. (took 845ms)
 

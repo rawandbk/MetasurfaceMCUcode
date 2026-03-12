@@ -68,7 +68,7 @@ static volatile uint32_t rx_packets_ok = 0;
 static volatile uint32_t rx_packets_bad = 0;
 
 static volatile uint16_t adc_buf[2]; //should hold 4 values since we have 4 adc channels
-static volatile uint8_t tx_packet[BUF_LEN] = {0xA5, 0xA4, 0xA5, 0x00, 0x12, 0x34, 0x56, 0x78, 0x9A,
+static volatile uint8_t tx_packet[BUF_LEN] = {0x01, 0xFF, 0xA5, 0x00, 0x12, 0x34, 0x56, 0x78, 0x9A,
 	    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}; //the tx buffer will store voltages
 
 static volatile run_mode_t current_mode = MODE_IDLE;
