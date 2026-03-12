@@ -67,8 +67,6 @@ static volatile uint8_t rx_packet_ready = 0;
 static volatile uint32_t rx_packets_ok = 0;
 static volatile uint32_t rx_packets_bad = 0;
 
-static volatile uint8_t tx_packet[BUF_LEN];
-
 static volatile run_mode_t current_mode = MODE_IDLE;
 static volatile uint8_t current_test_pattern = 0;
 
@@ -108,25 +106,12 @@ static inline GPIO_PinState bit_to_state(uint16_t w, uint8_t bit)
 static void SPI_Rearm_Packet(void)
 {
 	//reas sr and dr again
-	/*
     if (HAL_SPI_Receive_IT(&hspi1, (uint8_t*)rx_packet, RX_PACKET_BYTES) != HAL_OK)
     {
         rx_packets_bad++;
         printf("SPI arm failed\r\n");
     }
-    */
-	if (HAL_SPI_TransmitReceive_IT(&hspi1, (uint8_t*)tx_packet, (uint8_t*)rx_packet, RX_PACKET_BYTES )!= HAL_OK )
-
-	{
-		printf("SPI arm failed\r\n");
-	}
-
-
 }
-
-
-
-
 static void SetSwitchingFrequency(uint32_t freq_hz)
 {
     uint32_t timer_tick_hz = 10000;
@@ -173,9 +158,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
         current_test_pattern = 0;
     }
 }
-
-
-
 /* Apply 3 frames in order:
  *  frame0 ; CH1-CH16 (bits 0..15)
  *  frame1 ;CH17-CH32 (bits 0..15)

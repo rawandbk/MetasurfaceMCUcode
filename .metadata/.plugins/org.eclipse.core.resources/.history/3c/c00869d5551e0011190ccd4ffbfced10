@@ -118,7 +118,7 @@ static void SPI_Rearm_Packet(void)
 	if (HAL_SPI_TransmitReceive_IT(&hspi1, (uint8_t*)tx_packet, (uint8_t*)rx_packet, RX_PACKET_BYTES )!= HAL_OK )
 
 	{
-		printf("SPI arm failed\r\n");
+		prinf("SPI arm failed\r\n");
 	}
 
 
