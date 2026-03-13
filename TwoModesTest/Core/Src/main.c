@@ -58,6 +58,7 @@ UART_HandleTypeDef huart3;
 #define SYNC_WORD    0xA5A5u
 #define CMD_STATIC   0xC001u
 #define CMD_TEST     0xC002u
+#define CMD_MON		 0xB101u
 #define RX_PACKET_WORDS 9
 #define RX_PACKET_BYTES 18
 #define BUF_LEN 18
@@ -165,6 +166,31 @@ static void SPI_Rearm_Packet(void)
 
 }
 
+static void FillMonitorTxPacket(void)
+{
+    uint16_t adc0, adc1;
+
+    // Snapshot latest ADC values
+    adc0 = adc_buf[0];
+    adc1 = adc_buf[1];
+
+    tx_packet[0] = 0xA5;
+    tx_packet[1] = 0xA5;
+    tx_packet[2] = (CMD_MON >> 8) & 0xFF;
+    tx_packet[3] = CMD_MON & 0xFF;
+
+    tx_packet[4] = (adc0 >> 8) & 0xFF;
+    tx_packet[5] = adc0 & 0xFF;
+
+    tx_packet[6] = (adc1 >> 8) & 0xFF;
+    tx_packet[7] = adc1 & 0xFF;
+
+    // fill rest with 0 for now
+    for (int i = 8; i < BUF_LEN; i++)
+    {
+        tx_packet[i] = 0;
+    }
+}
 
 
 
@@ -418,15 +444,12 @@ int main(void)
 	      //printf("SPI packet received\r\n");
 
 	      uint16_t pkt[RX_PACKET_WORDS];
-	      for (int i = 0; i < BUF_LEN; i++){
-	    	  printf("buffe pos %d: %02X     ", i,rx_packet[i]);
-	      }
-
-
-
-
 
 	      __disable_irq();
+//	      for (int i = 0; i < BUF_LEN; i++){
+//	    	  printf("buffe pos %d: %02X     ", i,rx_packet[i]);
+//	      }
+
 	     for (int i = 0; i < RX_PACKET_WORDS; i++) //TRY PROCESSING PACKET AFTER ENABLING IRQ AND ALSO REMOVING PRINTS
 	      {
 	          pkt[i] = ((uint16_t) rx_packet[2*i] << 8| rx_packet[2*i+1]);
@@ -434,23 +457,19 @@ int main(void)
 	          //printf("packet:%04X\r\n",pkt[i]);
 	    }
 	      rx_packet_ready = 0;
-	      SPI_Rearm_Packet();
-
 	      __enable_irq();
 
-
-
-	      printf("RX: %04X %04X %04X %04X %04X %04X %04X %04X %04X\r\n",
-	             pkt[0], pkt[1], pkt[2], pkt[3],pkt[4], pkt[5], pkt[6], pkt[7], pkt[8]);
-	      for(int i =0; i< RX_PACKET_WORDS; i++){
-	    	  printf("word %d: %02X", i, rx_packet[i]);
-	      }
+//	      printf("RX: %04X %04X %04X %04X %04X %04X %04X %04X %04X\r\n",
+//	             pkt[0], pkt[1], pkt[2], pkt[3],pkt[4], pkt[5], pkt[6], pkt[7], pkt[8]);
+//	      for(int i =0; i< RX_PACKET_WORDS; i++){
+//	    	  printf("word %d: %02X", i, rx_packet[i]);
+//	      }
 
 	      if (pkt[0] == SYNC_WORD)
 	      {
 	          if (pkt[1] == CMD_STATIC)
 	          {
-	              printf("CMD_STATIC accepted\r\n");
+	              //printf("CMD_STATIC accepted\r\n");
 	              current_mode = MODE_STATIC;
 	              current_test_pattern = 0;
 	              HAL_TIM_Base_Stop_IT(&htim2);
@@ -460,7 +479,7 @@ int main(void)
 	          }
 	          else if (pkt[1] == CMD_TEST)
 	          {
-	              printf("CMD_TEST accepted\r\n");
+	              //printf("CMD_TEST accepted\r\n");
 
 	              test_pattern1[0] = pkt[2];
 	              test_pattern1[1] = pkt[3];
@@ -484,17 +503,24 @@ int main(void)
 
 	              rx_packets_ok++;
 	          }
+	          else if (pkt[1] == CMD_MON)
+	                  {
+	                      FillMonitorTxPacket();
+	                      rx_packets_ok++;
+	                  }
 	          else
 	          {
 	              rx_packets_bad++;
-	              printf("Bad cmd: %04X\r\n", pkt[1]);
+	              //printf("Bad cmd: %04X\r\n", pkt[1]);
 	          }
 	      }
 	      else
 	      {
 	          rx_packets_bad++;
-	          printf("Bad sync: %04X\r\n", pkt[0]);
+	          //printf("Bad sync: %04X\r\n", pkt[0]);
 	      }
+	      // Rearm ONLY after command processing and tx_packet update
+	      SPI_Rearm_Packet();
 
 	  }
   }
