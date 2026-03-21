@@ -69,8 +69,7 @@ static volatile uint32_t rx_packets_ok = 0;
 static volatile uint32_t rx_packets_bad = 0;
 
 static volatile uint16_t adc_buf[2]; //should hold 4 values since we have 4 adc channels
-static volatile uint8_t tx_packet[BUF_LEN] = {0xA5, 0xA4, 0xA5, 0x00, 0x12, 0x34, 0x56, 0x78, 0x9A,
-	    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}; //the tx buffer will store voltages
+static volatile uint8_t tx_packet[BUF_LEN] = {0}; //the tx buffer will store voltages
 
 static volatile run_mode_t current_mode = MODE_IDLE;
 static volatile uint8_t current_test_pattern = 0;
@@ -109,61 +108,56 @@ static inline GPIO_PinState bit_to_state(uint16_t w, uint8_t bit)
     return (w & (1U << bit)) ? GPIO_PIN_SET : GPIO_PIN_RESET;
 }
 
-static void ADC_Monitoring(void){
-
-
-	/*for (int i = 0; i < 2; i++)
-		{
-		    tx_packet[2*i]     = (((adc_buf[i] * 3300UL) / 4095UL) >> 8) & 0xFF;
-		    tx_packet[2*i + 1] = ((adc_buf[i] * 3300UL) / 4095UL) & 0xFF;
-		}
-*/
-	//adc samples way too fast sample very few half ms
-	static uint32_t last_print_tick = 0;
-
-	    if ((HAL_GetTick() - last_print_tick) < 500)
-	    {
-	        return;
-	    }
-
-	    last_print_tick = HAL_GetTick();
-	   // printf("tx packet: %02X %02X %02X %02X %02X %02X %02X %02X %02X\r\n ", tx_packet[0], tx_packet[1], tx_packet[2],
-	    			//tx_packet[3], tx_packet[4], tx_packet[5],tx_packet[6], tx_packet[7], tx_packet[8]);
-	char msg[100];
-	uint32_t vadc1_mV = (adc_buf[0] * 3300UL) / 4095UL;
-	uint32_t vin1_mV  = (vadc1_mV);
-
-    uint32_t vadc2_mV = (adc_buf[1]) * 3300UL / 4095UL;
-	uint32_t vin2_mV  = (vadc2_mV);
-
-	int n = snprintf(msg, sizeof(msg),
-    "raw1=%u Vadc1=%lu Vin1=%lu | raw2=%u Vadc2=%lu Vin2=%lu\r\n",
-	adc_buf[0], vadc1_mV, vin1_mV,
-    adc_buf[1], vadc2_mV, vin2_mV);
-
-	HAL_UART_Transmit(&huart3, (uint8_t*)msg, (uint16_t)n, HAL_MAX_DELAY);
-
-
-
-}
+//static void ADC_Monitoring(void){
+//
+//
+//	/*for (int i = 0; i < 2; i++)
+//		{
+//		    tx_packet[2*i]     = (((adc_buf[i] * 3300UL) / 4095UL) >> 8) & 0xFF;
+//		    tx_packet[2*i + 1] = ((adc_buf[i] * 3300UL) / 4095UL) & 0xFF;
+//		}
+//*/
+//	//adc samples way too fast sample very few half ms
+//	static uint32_t last_print_tick = 0;
+//
+//	    if ((HAL_GetTick() - last_print_tick) < 500)
+//	    {
+//	        return;
+//	    }
+//
+//	    last_print_tick = HAL_GetTick();
+//	   // printf("tx packet: %02X %02X %02X %02X %02X %02X %02X %02X %02X\r\n ", tx_packet[0], tx_packet[1], tx_packet[2],
+//	    			//tx_packet[3], tx_packet[4], tx_packet[5],tx_packet[6], tx_packet[7], tx_packet[8]);
+//	char msg[100];
+//	uint32_t vadc1_mV = (adc_buf[0] * 3300UL) / 4095UL;
+//	uint32_t vin1_mV  = (vadc1_mV);
+//
+//    uint32_t vadc2_mV = (adc_buf[1]) * 3300UL / 4095UL;
+//	uint32_t vin2_mV  = (vadc2_mV);
+//
+//	int n = snprintf(msg, sizeof(msg),
+//    "raw1=%u Vadc1=%lu Vin1=%lu | raw2=%u Vadc2=%lu Vin2=%lu\r\n",
+//	adc_buf[0], vadc1_mV, vin1_mV,
+//    adc_buf[1], vadc2_mV, vin2_mV);
+//
+//	HAL_UART_Transmit(&huart3, (uint8_t*)msg, (uint16_t)n, HAL_MAX_DELAY);
+//
+//
+//
+//}
 
 static void SPI_Rearm_Packet(void)
 {
-	//reas sr and dr again
-	/*
-    if (HAL_SPI_Receive_IT(&hspi1, (uint8_t*)rx_packet, RX_PACKET_BYTES) != HAL_OK)
+    //HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_11, GPIO_PIN_RESET);   // transaction active
+
+    if (HAL_SPI_TransmitReceive_IT(&hspi1,
+                                   (uint8_t*)tx_packet,
+                                   (uint8_t*)rx_packet,
+                                   RX_PACKET_BYTES) != HAL_OK)
     {
-        rx_packets_bad++;
         printf("SPI arm failed\r\n");
+        //HAL_GPIO_WritePin(GPIOC, GPIO_PIN_11, GPIO_PIN_SET); // failed to arm, so not active
     }
-    */
-	if (HAL_SPI_TransmitReceive_IT(&hspi1, (uint8_t*)tx_packet, (uint8_t*)rx_packet, RX_PACKET_BYTES )!= HAL_OK )
-
-	{
-		printf("SPI arm failed\r\n");
-	}
-
-
 }
 
 static void FillMonitorTxPacket(void)
@@ -308,6 +302,7 @@ static void ApplyPattern48(uint16_t pattern1, uint16_t pattern2, uint16_t patter
     HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12, bit_to_state(pattern3, 14));//CH47
     HAL_GPIO_WritePin(GPIOE, GPIO_PIN_7,  bit_to_state(pattern3, 15));//CH48
 
+    printf("Pattern successfully applied!\r\n");
     //HAL_GPIO_WritePin(GPIOD, GPIO_PIN_7, (pattern & (1U << 1)) ? GPIO_PIN_SET : GPIO_PIN_RESET);
 }
 
@@ -315,7 +310,7 @@ static void ApplyPattern48(uint16_t pattern1, uint16_t pattern2, uint16_t patter
 void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
 {
     if (hspi->Instance != SPI1) return;
-
+    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_11);
 
     rx_packet_ready = 1;
 
@@ -415,7 +410,7 @@ int main(void)
   ApplyPattern48(0, 0, 0);
   SPI_Rearm_Packet();
 
-  HAL_StatusTypeDef st = HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
+  HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf, 2);//start dma
 
 
   //ApplyPattern48(0, 0, 0);
@@ -441,19 +436,19 @@ int main(void)
     /* If a full 3-frame group arrived, apply it once */
 	  if (rx_packet_ready)
 	  {
-	      //printf("SPI packet received\r\n");
+		  printf("SPI packet received\r\n");
 
 	      uint16_t pkt[RX_PACKET_WORDS];
 
 	      __disable_irq();
-//	      for (int i = 0; i < BUF_LEN; i++){
-//	    	  printf("buffe pos %d: %02X     ", i,rx_packet[i]);
-//	      }
+	      for (int i = 0; i < BUF_LEN; i++){
+	    	  printf("buffer pos %d: %02X \r\n    ", i,rx_packet[i]);
+	      }
 
 	     for (int i = 0; i < RX_PACKET_WORDS; i++) //TRY PROCESSING PACKET AFTER ENABLING IRQ AND ALSO REMOVING PRINTS
 	      {
 	          pkt[i] = ((uint16_t) rx_packet[2*i] << 8| rx_packet[2*i+1]);
-	          //rx_packet[2*i] = '\0';
+	          rx_packet[2*i] = '\0';
 	          //printf("packet:%04X\r\n",pkt[i]);
 	    }
 	      rx_packet_ready = 0;
@@ -469,7 +464,7 @@ int main(void)
 	      {
 	          if (pkt[1] == CMD_STATIC)
 	          {
-	              //printf("CMD_STATIC accepted\r\n");
+	              printf("CMD_STATIC accepted\r\n");
 	              current_mode = MODE_STATIC;
 	              current_test_pattern = 0;
 	              HAL_TIM_Base_Stop_IT(&htim2);
@@ -479,7 +474,7 @@ int main(void)
 	          }
 	          else if (pkt[1] == CMD_TEST)
 	          {
-	              //printf("CMD_TEST accepted\r\n");
+	              printf("CMD_TEST accepted\r\n");
 
 	              test_pattern1[0] = pkt[2];
 	              test_pattern1[1] = pkt[3];
@@ -506,7 +501,7 @@ int main(void)
 	          else if (pkt[1] == CMD_MON)
 	                  {
 	                      FillMonitorTxPacket();
-	                      rx_packets_ok++;
+
 	                  }
 	          else
 	          {
@@ -603,9 +598,9 @@ static void MX_ADC1_Init(void)
   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc1.Init.NbrOfConversion = 2;//change later to 4
+  hadc1.Init.NbrOfConversion = 4;
   hadc1.Init.DMAContinuousRequests = ENABLE;
-  hadc1.Init.EOCSelection = ADC_EOC_SEQ_CONV;
+  hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   if (HAL_ADC_Init(&hadc1) != HAL_OK)
   {
     Error_Handler();
@@ -632,22 +627,21 @@ static void MX_ADC1_Init(void)
 
   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
   */
-  /*sConfig.Channel = ADC_CHANNEL_2;
+  sConfig.Channel = ADC_CHANNEL_2;
   sConfig.Rank = 3;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
   }
-/*
+
   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
   */
-  /*
   sConfig.Channel = ADC_CHANNEL_3;
   sConfig.Rank = 4;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
-  }*/
+  }
   /* USER CODE BEGIN ADC1_Init 2 */
 
   /* USER CODE END ADC1_Init 2 */
@@ -831,6 +825,9 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(USB_PowerSwitchOn_GPIO_Port, USB_PowerSwitchOn_Pin, GPIO_PIN_RESET);
 
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_11, GPIO_PIN_RESET);
+
   /*Configure GPIO pins : PE2 PE3 PE4 PE5
                            PE6 PE7 PE8 PE9
                            PE10 PE11 PE12 PE13
@@ -909,6 +906,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(USB_VBUS_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PC11 */
+  GPIO_InitStruct.Pin = GPIO_PIN_11;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
